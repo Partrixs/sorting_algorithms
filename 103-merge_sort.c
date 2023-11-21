@@ -32,8 +32,7 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
  * @mid: The middle index of the array.
  * @back: The back index of the array.
  */
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
-		size_t back)
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back)
 {
 	size_t r, s, t = 0;
 
